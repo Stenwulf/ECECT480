@@ -1,0 +1,239 @@
+Checking out Encounter license ...
+	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+**ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : /opt/cadence/EDI142/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZN8oaCommon11FactoryBase11getRefCountEv
+
+**ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+@(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+@(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.28-s006
+@(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+@(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+@(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+@(#)CDS: RCDB 11.5
+--- Starting "Encounter v14.28-s033_1" on Wed Apr 12 10:41:13 2017 (mem=98.1M) ---
+--- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.10.2.el7.x86_64) ---
+This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> win
+<CMD> set init_verilog unmapped/aes.v
+<CMD> init_design
+**ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+No LEF file provided, but timing lib is provided.
+Use timer mode.
+*** Begin netlist parsing (mem=350.4M) ***
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'unmapped/aes.v'
+Module DFF_E is not defined and will be treated as an empty module.
+Module AO21_I is not defined and will be treated as an empty module.
+Module XOR2_C is not defined and will be treated as an empty module.
+Module OR2_I is not defined and will be treated as an empty module.
+Module INVERTBAL_H is not defined and will be treated as an empty module.
+Module INVERT_I is not defined and will be treated as an empty module.
+Module NOR2_E is not defined and will be treated as an empty module.
+Module NAND4_B is not defined and will be treated as an empty module.
+Module NAND2_F is not defined and will be treated as an empty module.
+Module NAND3_E is not defined and will be treated as an empty module.
+Module OAI21_C is not defined and will be treated as an empty module.
+Module NOR3_B is not defined and will be treated as an empty module.
+Module OAI22_B is not defined and will be treated as an empty module.
+Module OA22_H is not defined and will be treated as an empty module.
+Module OR3_H is not defined and will be treated as an empty module.
+Module AND2_F is not defined and will be treated as an empty module.
+Module AOI22_C is not defined and will be treated as an empty module.
+Module NOR4_B is not defined and will be treated as an empty module.
+Module AOI21_C is not defined and will be treated as an empty module.
+Module OR4_E is not defined and will be treated as an empty module.
+Module AO2222_E is not defined and will be treated as an empty module.
+Module AO22_F is not defined and will be treated as an empty module.
+Module XNOR2_C is not defined and will be treated as an empty module.
+Module AO22_B is not defined and will be treated as an empty module.
+Module OAI21_A is not defined and will be treated as an empty module.
+Module NOR2_A is not defined and will be treated as an empty module.
+Module AOI21_A is not defined and will be treated as an empty module.
+Module OR2_B is not defined and will be treated as an empty module.
+Module OAI22_A is not defined and will be treated as an empty module.
+Module XOR2_A is not defined and will be treated as an empty module.
+Module XNOR2_A is not defined and will be treated as an empty module.
+Module INVERTBAL_E is not defined and will be treated as an empty module.
+Module NOR4_A is not defined and will be treated as an empty module.
+Module NAND2_A is not defined and will be treated as an empty module.
+Module OA21_D is not defined and will be treated as an empty module.
+Module INVERT_M is not defined and will be treated as an empty module.
+Module INVERT_L is not defined and will be treated as an empty module.
+
+*** Memory Usage v#1 (Current mem = 354.418M, initial mem = 98.129M) ***
+*** End netlist parsing (cpu=0:00:00.2, real=0:00:01.0, mem=354.4M) ***
+Top level cell is aes_cipher_top.
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.20min, fe_real=0.57min, fe_mem=354.4M) ***
+**WARN: (ENCDB-2504):	Cell 'DFF_E' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NAND4_B' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR2_E' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVERT_I' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVERTBAL_H' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OR2_I' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'XOR2_C' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'AO21_I' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVERT_L' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVERT_M' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OA21_D' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NAND2_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR4_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVERTBAL_E' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'XNOR2_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'XOR2_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OAI22_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OR2_B' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'AOI21_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR2_A' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (EMS-63):	Message <ENCDB-2504> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+Found empty module (DFF_E).
+Found empty module (NAND4_B).
+Found empty module (NOR2_E).
+Found empty module (INVERT_I).
+Found empty module (INVERTBAL_H).
+Found empty module (OR2_I).
+Found empty module (XOR2_C).
+Found empty module (AO21_I).
+Found empty module (INVERT_L).
+Found empty module (INVERT_M).
+Found empty module (OA21_D).
+Found empty module (NAND2_A).
+Found empty module (NOR4_A).
+Found empty module (INVERTBAL_E).
+Found empty module (XNOR2_A).
+Found empty module (XOR2_A).
+Found empty module (OAI22_A).
+Found empty module (OR2_B).
+Found empty module (AOI21_A).
+Found empty module (NOR2_A).
+Found empty module (OAI21_A).
+Found empty module (AO22_B).
+Found empty module (XNOR2_C).
+Found empty module (AO22_F).
+Found empty module (AO2222_E).
+Found empty module (OR4_E).
+Found empty module (AOI21_C).
+Found empty module (NOR4_B).
+Found empty module (AOI22_C).
+Found empty module (AND2_F).
+Found empty module (OR3_H).
+Found empty module (OA22_H).
+Found empty module (OAI22_B).
+Found empty module (NOR3_B).
+Found empty module (OAI21_C).
+Found empty module (NAND3_E).
+Found empty module (NAND2_F).
+Starting recursive module instantiation check.
+No recursion found.
+Term dir updated for 0 vinsts of 37 cells.
+Building hierarchical netlist for Cell aes_cipher_top ...
+*** Netlist is unique.
+** info: there are 60 modules.
+** info: there are 0 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 376.168M, initial mem = 98.129M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Input Pin Transition Delay as 0.1 ps.
+
+**WARN: (ENCSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restore_design -mmmc_file <viewDef.tcl> to add the timing setup information.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCSYT-7328          1  The design has been initialized in physi...
+WARNING   ENCDB-2504          37  Cell '%s' is instantiated in the Verilog...
+ERROR     ENCOAX-820           1  The OA features are disabled in the curr...
+ERROR     ENCOAX-850           1  %s command cannot be run as OA features ...
+*** Message Summary: 38 warning(s), 2 error(s)
+
+<CMD> windowSelect 0.000 0.093 0.001 0.093
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+<CMD> set init_lef_file {/mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/cmos7rf_7ML_tech.lef /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/ibm_cmos7rf_sc_12Track.lef}
+<CMD> init_design
+**WARN: (ENCSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+**ERROR: (ENCSYT-16088):	Specify the name of Library Set.
+<CMD> save_global aes_cipher_top.globals
+<CMD> set init_gnd_net vss
+<CMD> set init_design_settop 0
+<CMD> set init_mmmc_file aes_cipher_top.view
+<CMD> set init_pwr_net vdd
+<CMD> init_design
+**WARN: (ENCSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+**ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_FloorPlan::SpecFPlan::apply  apply' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+<CMD> setBottomIoPadOrient {}
+**WARN: (ENCSYC-811):	Undefined side  for global IoPad PinSide
+**ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_FloorPlan::SpecFPlan::apply  apply' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+
+*** Memory Usage v#1 (Current mem = 507.324M, initial mem = 98.129M) ***
+*** Message Summary: 47 warning(s), 7 error(s)
+
+--- Ending "Encounter" (totcpu=0:09:09, real=0:34:03, mem=507.3M) ---

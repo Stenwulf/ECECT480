@@ -1,0 +1,7 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_library_set -name NominalLibrary -timing {../../../class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.lib}
+create_constraint_mode -name constraints -sdc_files {../ecect680-s2017/unmapped/constraints.sdc}
+create_delay_corner -name nom_delay -library_set {NominalLibrary}
+create_analysis_view -name NominalAnalysis -constraint_mode {constraints} -delay_corner {nom_delay}
+set_analysis_view -setup {NominalAnalysis} -hold {NominalAnalysis}

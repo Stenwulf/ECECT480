@@ -1,0 +1,127 @@
+[04/19 09:54:40     0s] Checking out Encounter license ...
+[04/19 09:54:40     0s] 	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+[04/19 09:54:40     0s] Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+[04/19 09:54:40     0s] You can run 2 CPU jobs with the base license that is currently checked out.
+[04/19 09:54:40     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[04/19 09:54:41     1s] **ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : /opt/cadence/EDI142/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZN8oaCommon11FactoryBase11getRefCountEv
+[04/19 09:54:41     1s] 
+[04/19 09:54:41     1s] **ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+[04/19 09:54:41     1s] 
+[04/19 09:54:47     6s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[04/19 09:54:47     6s] @(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+[04/19 09:54:47     6s] @(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+[04/19 09:54:47     6s] @(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+[04/19 09:54:47     6s] @(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+[04/19 09:54:47     6s] @(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+[04/19 09:54:47     6s] @(#)CDS: CPE v14.28-s006
+[04/19 09:54:47     6s] @(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+[04/19 09:54:47     6s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[04/19 09:54:47     6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/19 09:54:47     6s] @(#)CDS: RCDB 11.5
+[04/19 09:54:47     6s] --- Starting "Encounter v14.28-s033_1" on Wed Apr 19 09:54:47 2017 (mem=95.1M) ---
+[04/19 09:54:47     6s] --- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.10.2.el7.x86_64) ---
+[04/19 09:54:47     6s] This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+[04/19 09:54:47     6s] Set DBUPerIGU to 1000.
+[04/19 09:54:47     6s] Set net toggle Scale Factor to 1.00
+[04/19 09:54:47     6s] Set Shrink Factor to 1.00000
+[04/19 09:54:47     6s] 
+[04/19 09:54:47     6s] **INFO:  MMMC transition support version v31-84 
+[04/19 09:54:47     6s] 
+[04/19 09:54:47     6s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/19 09:54:47     6s] <CMD> suppressMessage ENCEXT-2799
+[04/19 09:54:47     7s] <CMD> getVersion
+[04/19 09:54:48     7s] <CMD> win
+[04/19 09:56:12    22s] <CMD> encMessage warning 0
+[04/19 09:56:12    22s] Suppress "**WARN ..." messages.
+[04/19 09:56:12    22s] <CMD> encMessage debug 0
+[04/19 09:56:12    22s] <CMD> encMessage info 0
+[04/19 09:56:12    22s] Loading global variable file /home/DREXEL/ekw47/ecect680-s2017/aes_cipher_top.enc.dat/aes_cipher_top.globals ...
+[04/19 09:56:12    22s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[04/19 09:56:12    22s] 
+[04/19 09:56:12    22s] **ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[04/19 09:56:12    22s] Loading view definition file from /home/DREXEL/ekw47/ecect680-s2017/aes_cipher_top.enc.dat/viewDefinition.tcl
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_H' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_K' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFSR_E' is not defined in the library.
+[04/19 09:56:12    22s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFSR_E' is not defined in the library.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_C'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_B'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_A'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_D'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_C'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_B'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_A'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] **WARN: (TECHLIB-302):	No function defined for cell 'FGTIE_A'. The cell will only be used for analysis.
+[04/19 09:56:13    23s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.38min, fe_real=1.55min, fe_mem=384.2M) ***
+[04/19 09:56:13    23s] Loading preference file /home/DREXEL/ekw47/ecect680-s2017/aes_cipher_top.enc.dat/enc.pref.tcl ...
+[04/19 09:56:13    23s] Loading mode file /home/DREXEL/ekw47/ecect680-s2017/aes_cipher_top.enc.dat/aes_cipher_top.mode ...
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.044 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:13    23s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.076 will be used.
+[04/19 09:56:14    24s] Loading place ...
+[04/19 09:56:14    24s] **WARN: (ENCSP-311):	From restore design about 100.00% of instances are not placed. Most probably the 
+[04/19 09:56:14    24s] design imported through DEF file is partially placed. Either run placeDesign to 
+[04/19 09:56:14    24s] place these instances or re-import fully placed DEF file.
+[04/19 09:56:14    24s] Loading route ...
+[04/19 09:56:17    24s] <CMD> pan 315.692 -43.049
+[04/19 09:56:45    29s] 
+[04/19 09:56:45    29s] *** Memory Usage v#1 (Current mem = 511.906M, initial mem = 95.129M) ***
+[04/19 09:56:45    29s] 
+[04/19 09:56:45    29s] *** Summary of all messages that are not suppressed in this session:
+[04/19 09:56:45    29s] Severity  ID               Count  Summary                                  
+[04/19 09:56:45    29s] WARNING   ENCEXT-2766          7  Sheet resistance for layer %s is not def...
+[04/19 09:56:45    29s] WARNING   ENCEXT-2773          7  The via resistance between layers %s and...
+[04/19 09:56:45    29s] WARNING   ENCSP-311            1  From restore design about %.2f%% of inst...
+[04/19 09:56:45    29s] ERROR     ENCOAX-142           2  %s                                       
+[04/19 09:56:45    29s] ERROR     ENCOAX-820           1  The OA features are disabled in the curr...
+[04/19 09:56:45    29s] ERROR     ENCOAX-850           1  %s command cannot be run as OA features ...
+[04/19 09:56:45    29s] *** Message Summary: 15 warning(s), 4 error(s)
+[04/19 09:56:45    29s] 
+[04/19 09:56:45    29s] --- Ending "Encounter" (totcpu=0:00:29.2, real=0:02:05, mem=511.9M) ---

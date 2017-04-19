@@ -1,0 +1,1 @@
+restoreDesign [file dirname [file normalize [info script]]]/aes_cipher_top.enc.dat aes_cipher_top

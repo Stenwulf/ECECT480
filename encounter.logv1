@@ -1,0 +1,319 @@
+[04/12 11:15:15     0s] Checking out Encounter license ...
+[04/12 11:15:15     0s] 	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+[04/12 11:15:15     0s] Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+[04/12 11:15:15     0s] You can run 2 CPU jobs with the base license that is currently checked out.
+[04/12 11:15:15     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[04/12 11:15:16     1s] **ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : /opt/cadence/EDI142/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZN8oaCommon11FactoryBase11getRefCountEv
+[04/12 11:15:16     1s] 
+[04/12 11:15:16     1s] **ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+[04/12 11:15:16     1s] 
+[04/12 11:15:22     6s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[04/12 11:15:22     6s] @(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+[04/12 11:15:22     6s] @(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+[04/12 11:15:22     6s] @(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+[04/12 11:15:22     6s] @(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+[04/12 11:15:22     6s] @(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+[04/12 11:15:22     6s] @(#)CDS: CPE v14.28-s006
+[04/12 11:15:22     6s] @(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+[04/12 11:15:22     6s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[04/12 11:15:22     6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/12 11:15:22     6s] @(#)CDS: RCDB 11.5
+[04/12 11:15:22     6s] --- Starting "Encounter v14.28-s033_1" on Wed Apr 12 11:15:22 2017 (mem=95.1M) ---
+[04/12 11:15:22     6s] --- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.10.2.el7.x86_64) ---
+[04/12 11:15:22     6s] This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+[04/12 11:15:22     6s] Set DBUPerIGU to 1000.
+[04/12 11:15:22     6s] Set net toggle Scale Factor to 1.00
+[04/12 11:15:22     6s] Set Shrink Factor to 1.00000
+[04/12 11:15:23     7s] 
+[04/12 11:15:23     7s] **INFO:  MMMC transition support version v31-84 
+[04/12 11:15:23     7s] 
+[04/12 11:15:23     7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/12 11:15:23     7s] <CMD> suppressMessage ENCEXT-2799
+[04/12 11:15:23     7s] <CMD> getVersion
+[04/12 11:15:23     8s] <CMD> win
+[04/12 11:15:42    10s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[04/12 11:15:42    10s] 
+[04/12 11:15:42    10s] **ERROR: (ENCOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+[04/12 11:15:42    10s] **ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_Design::restoreDesign:getOALibList restoreDesign library' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+[04/12 11:15:42    10s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[04/12 11:15:42    10s] 
+[04/12 11:15:42    10s] **ERROR: (ENCOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+[04/12 11:15:42    10s] **ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_Design::restoreDesign:getOALibList restoreDesign library' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+[04/12 11:15:43    11s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[04/12 11:15:43    11s] 
+[04/12 11:15:43    11s] **ERROR: (ENCOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+[04/12 11:15:43    11s] **ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_Design::restoreDesign:getOALibList restoreDesign library' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+[04/12 11:17:12    31s] <CMD> create_library_set -name NominalLibrary -timing {../../../class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.lib}
+[04/12 11:17:12    31s] <CMD> create_constraint_mode -name constraints -sdc_files {unmapped/constraints.sdc}
+[04/12 11:17:12    31s] <CMD> create_delay_corner -name nom_delay -library_set {NominalLibrary}
+[04/12 11:17:12    31s] <CMD> create_analysis_view -name NominalAnalysis -constraint_mode {constraints} -delay_corner {nom_delay}
+[04/12 11:17:12    31s] <CMD> set_analysis_view -setup {NominalAnalysis} -hold {NominalAnalysis}
+[04/12 11:17:29    35s] <CMD> set init_gnd_net vss
+[04/12 11:17:29    35s] <CMD> set init_lef_file {/mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/cmos7rf_7MA_tech.lef /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/ibm_cmos7rf_sc_12Track.lef}
+[04/12 11:17:29    35s] <CMD> set init_design_settop 0
+[04/12 11:17:29    35s] <CMD> set init_verilog unmapped/aes.v
+[04/12 11:17:29    35s] <CMD> set init_mmmc_file aes_cipher_top.view
+[04/12 11:17:29    35s] <CMD> set init_pwr_net vdd
+[04/12 11:17:29    35s] <CMD> init_design
+[04/12 11:17:29    35s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[04/12 11:17:29    35s] 
+[04/12 11:17:29    35s] **ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[04/12 11:17:29    35s] 
+[04/12 11:17:29    35s] Loading LEF file /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/cmos7rf_7MA_tech.lef ...
+[04/12 11:17:29    35s] 
+[04/12 11:17:29    35s] Loading LEF file /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/ibm_cmos7rf_sc_12Track.lef ...
+[04/12 11:17:29    35s] Set DBUPerIGU to M2 pitch 560.
+[04/12 11:17:29    35s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/lef/ibm_cmos7rf_sc_12Track.lef at line 39680.
+[04/12 11:17:29    35s] 
+[04/12 11:17:29    35s] viaInitial starts at Wed Apr 12 11:17:29 2017
+viaInitial ends at Wed Apr 12 11:17:29 2017
+*** Begin netlist parsing (mem=360.6M) ***
+[04/12 11:17:29    35s] Reading netlist ...
+[04/12 11:17:29    35s] Backslashed names will retain backslash and a trailing blank character.
+[04/12 11:17:29    35s] Reading verilog netlist 'unmapped/aes.v'
+[04/12 11:17:29    35s] 
+[04/12 11:17:29    35s] *** Memory Usage v#1 (Current mem = 367.629M, initial mem = 95.129M) ***
+[04/12 11:17:29    35s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=367.6M) ***
+[04/12 11:17:29    35s] Top level cell is aes_cipher_top.
+[04/12 11:17:29    35s] Loading view definition file from aes_cipher_top.view
+[04/12 11:17:29    35s] Reading NominalLibrary timing library '/mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.lib' ...
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFF_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFF_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFR_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFR_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_H' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFS_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFS_K' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'DFFSR_E' is not defined in the library.
+[04/12 11:17:29    35s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'QBAR' of cell 'DFFSR_E' is not defined in the library.
+[04/12 11:17:29    35s] Message <TECHLIB-436> has exceeded the message display limit of '20'. setMessageLimit/set_message_limit sets the limit. unsetMessageLimit/unset_message_limit can be used to reset this.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_C'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_B'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP_A'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_D'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_C'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_B'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'TERM_A'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] **WARN: (TECHLIB-302):	No function defined for cell 'FGTIE_A'. The cell will only be used for analysis.
+[04/12 11:17:30    36s] Read 361 cells in library 'PnomV180T025_STD_CELL_7RF' 
+[04/12 11:17:30    36s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.60min, fe_real=2.25min, fe_mem=390.0M) ***
+[04/12 11:17:30    36s] Starting recursive module instantiation check.
+[04/12 11:17:30    36s] No recursion found.
+[04/12 11:17:30    36s] Building hierarchical netlist for Cell aes_cipher_top ...
+[04/12 11:17:30    36s] *** Netlist is unique.
+[04/12 11:17:30    36s] ** info: there are 393 modules.
+[04/12 11:17:30    36s] ** info: there are 11238 stdCell insts.
+[04/12 11:17:30    36s] 
+[04/12 11:17:30    36s] *** Memory Usage v#1 (Current mem = 396.547M, initial mem = 95.129M) ***
+[04/12 11:17:30    36s] Set Default Net Delay as 1000 ps.
+[04/12 11:17:30    36s] Set Default Net Load as 0.5 pF. 
+[04/12 11:17:30    36s] Set Input Pin Transition Delay as 0.1 ps.
+[04/12 11:17:30    36s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/12 11:17:30    36s] Type 'man ENCEXT-2773' for more detail.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.044 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.076 will be used.
+[04/12 11:17:30    36s] Summary of Active RC-Corners : 
+[04/12 11:17:30    36s]  
+[04/12 11:17:30    36s]  Analysis View: NominalAnalysis
+[04/12 11:17:30    36s]     RC-Corner Name        : default_rc_corner
+[04/12 11:17:30    36s]     RC-Corner Index       : 0
+[04/12 11:17:30    36s]     RC-Corner Temperature : 25 Celsius
+[04/12 11:17:30    36s]     RC-Corner Cap Table   : ''
+[04/12 11:17:30    36s]     RC-Corner PreRoute Res Factor         : 1
+[04/12 11:17:30    36s]     RC-Corner PreRoute Cap Factor         : 1
+[04/12 11:17:30    36s]     RC-Corner PostRoute Res Factor        : 1
+[04/12 11:17:30    36s]     RC-Corner PostRoute Cap Factor        : 1
+[04/12 11:17:30    36s]     RC-Corner PostRoute XCap Factor       : 1
+[04/12 11:17:30    36s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+[04/12 11:17:30    36s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+[04/12 11:17:30    36s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/12 11:17:30    36s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/12 11:17:30    36s] *Info: initialize multi-corner CTS.
+[04/12 11:17:30    36s] CTE reading timing constraint file 'unmapped/constraints.sdc' ...
+[04/12 11:17:30    36s] Current (total cpu=0:00:36.2, real=0:02:15, peak res=398.4M, current mem=493.7M)
+[04/12 11:17:30    36s] INFO (CTE): Constraints read successfully.
+[04/12 11:17:30    36s] WARNING (CTE-25): Line: 8 of File unmapped/constraints.sdc : Skipped unsupported command: set_units
+[04/12 11:17:30    36s] 
+[04/12 11:17:30    36s] 
+[04/12 11:17:30    36s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=413.1M, current mem=508.2M)
+[04/12 11:17:30    36s] Current (total cpu=0:00:36.2, real=0:02:15, peak res=413.1M, current mem=508.2M)
+[04/12 11:17:30    36s] Total number of combinational cells: 331
+[04/12 11:17:30    36s] Total number of sequential cells: 30
+[04/12 11:17:30    36s] Total number of tristate cells: 0
+[04/12 11:17:30    36s] Total number of level shifter cells: 0
+[04/12 11:17:30    36s] Total number of power gating cells: 0
+[04/12 11:17:30    36s] Total number of isolation cells: 0
+[04/12 11:17:30    36s] Total number of power switch cells: 0
+[04/12 11:17:30    36s] Total number of pulse generator cells: 0
+[04/12 11:17:30    36s] Total number of always on buffers: 0
+[04/12 11:17:30    36s] Total number of retention cells: 0
+[04/12 11:17:30    36s] List of usable buffers: BUFFER_C BUFFER_D BUFFER_E BUFFER_F BUFFER_I BUFFER_H BUFFER_J BUFFER_L BUFFER_K BUFFER_M BUFFER_N BUFFER_O CLK_I CLK_K CLK_M CLK_O CLK_Q
+[04/12 11:17:30    36s] Total number of usable buffers: 17
+[04/12 11:17:30    36s] List of unusable buffers:
+[04/12 11:17:30    36s] Total number of unusable buffers: 0
+[04/12 11:17:30    36s] List of usable inverters: CLKI_I CLKI_K CLKI_M CLKI_O CLKI_Q INVERT_A INVERT_B INVERT_C INVERT_D INVERT_E INVERT_F INVERT_I INVERT_H INVERT_J INVERT_L INVERT_K INVERT_M INVERT_N INVERT_O INVERT_U INVERTBAL_H INVERTBAL_E INVERTBAL_J INVERTBAL_L
+[04/12 11:17:30    36s] Total number of usable inverters: 24
+[04/12 11:17:30    36s] List of unusable inverters:
+[04/12 11:17:30    36s] Total number of unusable inverters: 0
+[04/12 11:17:30    36s] List of identified usable delay cells: DELAY4_C DELAY4_J DELAY4_F DELAY6_A DELAY6_B DELAY6_C DELAY6_F DELAY6_M DELAY6_J
+[04/12 11:17:30    36s] Total number of identified usable delay cells: 9
+[04/12 11:17:30    36s] List of identified unusable delay cells:
+[04/12 11:17:30    36s] Total number of identified unusable delay cells: 0
+[04/12 11:17:30    36s] 
+[04/12 11:17:30    36s] *** Summary of all messages that are not suppressed in this session:
+[04/12 11:17:30    36s] Severity  ID               Count  Summary                                  
+[04/12 11:17:30    36s] WARNING   ENCEXT-2766          7  Sheet resistance for layer %s is not def...
+[04/12 11:17:30    36s] WARNING   ENCEXT-2773          7  The via resistance between layers %s and...
+[04/12 11:17:30    36s] ERROR     ENCOAX-820           1  The OA features are disabled in the curr...
+[04/12 11:17:30    36s] ERROR     ENCOAX-850           1  %s command cannot be run as OA features ...
+[04/12 11:17:30    36s] *** Message Summary: 14 warning(s), 2 error(s)
+[04/12 11:17:30    36s] 
+[04/12 11:17:40    38s] <CMD> panPage 0 1
+[04/12 11:17:40    38s] <CMD> panPage 1 0
+[04/12 11:17:40    38s] <CMD> panPage 1 0
+[04/12 11:17:40    38s] <CMD> panPage 0 1
+[04/12 11:17:41    38s] <CMD> panPage -1 0
+[04/12 11:17:41    38s] <CMD> panPage 1 0
+[04/12 11:17:42    38s] <CMD> panPage 0 1
+[04/12 11:17:43    38s] <CMD> panPage 1 0
+[04/12 11:17:43    38s] <CMD> panPage 0 1
+[04/12 11:17:44    38s] <CMD> panPage 1 0
+[04/12 11:17:44    38s] <CMD> panPage 0 1
+[04/12 11:17:45    39s] <CMD> panPage -1 0
+[04/12 11:17:45    39s] <CMD> panPage 1 0
+[04/12 11:17:48    39s] <CMD> getIoFlowFlag
+[04/12 11:17:58    40s] <CMD> setIoFlowFlag 0
+[04/12 11:17:58    40s] <CMD> floorPlan -site CORE -r 0.988064348729 0.699999 0.1 0.1 0.1 0.1
+[04/12 11:17:58    40s] **WARN: (ENCFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[04/12 11:17:58    40s] <CMD> uiSetTool select
+[04/12 11:17:58    40s] <CMD> getIoFlowFlag
+[04/12 11:17:58    40s] <CMD> fit
+[04/12 11:18:19    43s] <CMD> panPage -1 0
+[04/12 11:18:20    44s] <CMD> panPage 1 0
+[04/12 11:18:21    44s] <CMD> panPage 0 1
+[04/12 11:18:21    44s] <CMD> panPage 1 0
+[04/12 11:18:22    44s] <CMD> panPage 0 1
+[04/12 11:18:22    44s] <CMD> panPage 0 -1
+[04/12 11:18:22    44s] <CMD> panPage -1 0
+[04/12 11:18:23    44s] <CMD> panPage 1 0
+[04/12 11:18:23    44s] <CMD> panPage -1 0
+[04/12 11:18:39    46s] <CMD> saveDesign aes_cipher_top.enc
+[04/12 11:18:39    46s] Writing Netlist "aes_cipher_top.enc.dat/aes_cipher_top.v.gz" ...
+[04/12 11:18:39    46s] Saving AAE Data ...
+[04/12 11:18:39    46s] Saving configuration ...
+[04/12 11:18:39    46s] Saving preference file aes_cipher_top.enc.dat/enc.pref.tcl ...
+[04/12 11:18:39    46s] Saving floorplan ...
+[04/12 11:18:39    46s] Saving Drc markers ...
+[04/12 11:18:39    46s] ... No Drc file written since there is no markers found.
+[04/12 11:18:39    46s] Saving placement ...
+[04/12 11:18:39    47s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=513.2M) ***
+[04/12 11:18:39    47s] Saving route ...
+[04/12 11:18:39    47s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:00.0 mem=514.2M) ***
+[04/12 11:18:39    47s] Writing DEF file 'aes_cipher_top.enc.dat/aes_cipher_top.def.gz', current time is Wed Apr 12 11:18:39 2017 ...
+[04/12 11:18:39    47s] unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+[04/12 11:18:39    47s] DEF file 'aes_cipher_top.enc.dat/aes_cipher_top.def.gz' is written, current time is Wed Apr 12 11:18:39 2017 ...
+[04/12 11:18:39    47s] Copying Timing Library...
+[04/12 11:18:39    47s] Copying LEF file...
+[04/12 11:18:39    47s] Copying Constraints file(s) ...
+[04/12 11:18:40    47s] Modifying Mode File...
+[04/12 11:18:40    47s] Modifying View File...
+[04/12 11:18:41    48s] Modifying Globals File...
+[04/12 11:18:41    48s] Modifying Power Constraints File...
+[04/12 11:18:41    49s] Generated self-contained design: /home/DREXEL/ekw47/ecect680-s2017
+[04/12 11:18:41    49s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/12 11:18:41    49s] 
+[04/12 11:20:22    63s] <CMD> clearGlobalNets
+[04/12 11:20:22    63s] <CMD> globalNetConnect vdd -type pgpin -pin vdd -inst *
+[04/12 11:20:22    63s] **ERROR: (ENCDB-1221):	A global net connection rule was specified to connect power pins with the name pattern 'vdd' to a global net.  But the connections cannot be made because there is no such power pin with name matching the pattern in any cell.  Check the pin name pattern and make sure it is correct.
+[04/12 11:20:22    63s] <CMD> globalNetConnect vss -type pgpin -pin vss -inst *
+[04/12 11:20:22    63s] **ERROR: (ENCDB-1221):	A global net connection rule was specified to connect ground pins with the name pattern 'vss' to a global net.  But the connections cannot be made because there is no such ground pin with name matching the pattern in any cell.  Check the pin name pattern and make sure it is correct.
+[04/12 11:20:55    68s] <CMD> saveDesign aes_cipher_top.enc
+[04/12 11:20:55    68s] Writing Netlist "aes_cipher_top.enc.dat.tmp/aes_cipher_top.v.gz" ...
+[04/12 11:20:55    68s] Saving AAE Data ...
+[04/12 11:20:55    68s] Saving configuration ...
+[04/12 11:20:55    68s] Saving preference file aes_cipher_top.enc.dat.tmp/enc.pref.tcl ...
+[04/12 11:20:55    68s] Saving floorplan ...
+[04/12 11:20:55    68s] Saving Drc markers ...
+[04/12 11:20:55    68s] ... No Drc file written since there is no markers found.
+[04/12 11:20:55    68s] Saving placement ...
+[04/12 11:20:55    68s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=517.8M) ***
+[04/12 11:20:55    68s] Saving route ...
+[04/12 11:20:55    69s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=518.8M) ***
+[04/12 11:20:55    69s] Writing DEF file 'aes_cipher_top.enc.dat.tmp/aes_cipher_top.def.gz', current time is Wed Apr 12 11:20:55 2017 ...
+[04/12 11:20:55    69s] unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+[04/12 11:20:55    69s] DEF file 'aes_cipher_top.enc.dat.tmp/aes_cipher_top.def.gz' is written, current time is Wed Apr 12 11:20:55 2017 ...
+[04/12 11:20:55    69s] Copying Timing Library...
+[04/12 11:20:55    69s] Copying LEF file...
+[04/12 11:20:55    69s] Copying Constraints file(s) ...
+[04/12 11:20:56    69s] Modifying Mode File...
+[04/12 11:20:56    69s] Modifying View File...
+[04/12 11:20:56    70s] Modifying Globals File...
+[04/12 11:20:57    70s] Modifying Power Constraints File...
+[04/12 11:20:57    71s] Generated self-contained design: /home/DREXEL/ekw47/ecect680-s2017
+[04/12 11:20:57    71s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/12 11:20:57    71s] 
+[04/12 11:21:00    71s] 
+[04/12 11:21:00    71s] *** Memory Usage v#1 (Current mem = 518.969M, initial mem = 95.129M) ***
+[04/12 11:21:00    71s] 
+[04/12 11:21:00    71s] *** Summary of all messages that are not suppressed in this session:
+[04/12 11:21:00    71s] Severity  ID               Count  Summary                                  
+[04/12 11:21:00    71s] WARNING   ENCFP-325            1  Floorplan of the design is resized. All ...
+[04/12 11:21:00    71s] WARNING   ENCEXT-2766          7  Sheet resistance for layer %s is not def...
+[04/12 11:21:00    71s] WARNING   ENCEXT-2773          7  The via resistance between layers %s and...
+[04/12 11:21:00    71s] ERROR     ENCDB-1221           2  A global net connection rule was specifi...
+[04/12 11:21:00    71s] ERROR     ENCOAX-142           2  %s                                       
+[04/12 11:21:00    71s] ERROR     ENCOAX-820           4  The OA features are disabled in the curr...
+[04/12 11:21:00    71s] ERROR     ENCOAX-850           4  %s command cannot be run as OA features ...
+[04/12 11:21:00    71s] ERROR     ENCQTF-4044          3  Error happens when execute '%s' with err...
+[04/12 11:21:00    71s] *** Message Summary: 15 warning(s), 15 error(s)
+[04/12 11:21:00    71s] 
+[04/12 11:21:00    71s] --- Ending "Encounter" (totcpu=0:01:11, real=0:05:45, mem=519.0M) ---

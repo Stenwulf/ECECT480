@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aes_cipher_top
+Version: M-2016.12-SP1
+Date   : Wed Apr 12 11:08:44 2017
+****************************************
+
+Operating Conditions: PnomV180T025_STD_CELL_7RF   Library: PnomV180T025_STD_CELL_7RF
+Wire Load Model Mode: enclosed
+
+  Startpoint: sa00_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: sa30_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  aes_cipher_top     450KCELLS_5MZC4P      PnomV180T025_STD_CELL_7RF
+  aes_sbox_0         9KCELLS_5MZC4P        PnomV180T025_STD_CELL_7RF
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  sa00_reg[5]/CLK (DFF_E)                  0.00       0.40 r
+  sa00_reg[5]/Q (DFF_E)                    0.39       0.79 r
+  us00/a[5] (aes_sbox_0)                   0.00       0.79 r
+  us00/U9/Z (NOR2_E)                       0.19       0.98 f
+  us00/U15/Z (NAND2_F)                     0.42       1.40 r
+  us00/U323/Z (NOR2_E)                     0.15       1.55 f
+  us00/U190/Z (OR4_E)                      0.19       1.74 f
+  us00/U88/Z (NOR4_B)                      0.11       1.85 r
+  us00/U84/Z (NAND4_B)                     0.14       1.99 f
+  us00/U330/Z (NOR4_B)                     0.20       2.18 r
+  us00/U328/Z (NAND2_F)                    0.06       2.24 f
+  us00/U186/Z (NOR3_B)                     0.14       2.38 r
+  us00/U70/Z (NAND4_B)                     0.31       2.70 f
+  us00/d[3] (aes_sbox_0)                   0.00       2.70 f
+  U687/Z (XOR2_A)                          0.61       3.31 r
+  U686/Z (XNOR2_A)                         0.28       3.59 f
+  U685/Z (XOR2_A)                          0.28       3.86 r
+  U682/Z (XOR2_A)                          0.23       4.10 r
+  U681/Z (OAI22_A)                         0.21       4.31 f
+  sa30_reg[3]/D (DFF_E)                    0.00       4.31 f
+  data arrival time                                   4.31
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.05      10.35
+  sa30_reg[3]/CLK (DFF_E)                  0.00      10.35 r
+  library setup time                      -0.20      10.15
+  data required time                                 10.15
+  -----------------------------------------------------------
+  data required time                                 10.15
+  data arrival time                                  -4.31
+  -----------------------------------------------------------
+  slack (MET)                                         5.84
+
+
+1
